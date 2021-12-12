@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="120x120" href="../static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Project - Mushrooms</title>    
+</head>
+
+<body>
+    <div class="content">
+        <h1>This image contains a mushroom!</h1>
+        <img src="static/{{filename}}" height="500" alt="foto">
+        <h3>Is this a mushroom?</h3>
+        <p>Yes, accuracy: {{perc1}}%</p>
+        <h3>Is this mushroom edible?</h3>
+        <p>This mushroom is <b>{{variable2}}</b> to eat, accuracy: {{perc2}}%</p>
+        <h3>What species does this mushroom belong to?</h3>
+        <p>The species of this mushroom is <b>{{variable3}}</b>, accuracy: {{perc3}}%</p>
+        <p><a class="btn btn-primary" href="/">Back to home</a></p>
+    </div>
+</body>
+</html>
